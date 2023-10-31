@@ -1,0 +1,6 @@
+{
+  "Path" : "/usr/lib/x86_64-linux-gnu/libykcs11.dylib",
+  "SlotNumber": 0,
+  "Pin" : "123456",
+  "CommonName": "foo"
+}

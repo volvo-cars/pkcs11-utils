@@ -1,0 +1,6 @@
+.vscode
+.DS_Store
+pkcs11gn/pkcs11gn
+*.deb
+*.sig
+*.gpg

@@ -1,0 +1,6 @@
+Package: pkcs11-utils
+Version: ${VERSION}-1
+Maintainer: VCC R&D SwF
+Architecture: ${ARCH}
+Depends: adduser, ykcs11, pcscd
+Description: Dead-simple PKCS#11 sign tool
