@@ -15,7 +15,7 @@ clean:
 	rm -rf *.deb
 
 .PHONY: test
-test:
+deb_test:
 	$(call docker_build,test)
 
 pkcs11gn_$(VERSION)-1_$(ARCH).deb: debian/* *.go go.* Dockerfile
@@ -31,3 +31,14 @@ pkcs11gn_$(VERSION)-1_$(ARCH).deb.sig: pkcs11gn_$(VERSION)-1_$(ARCH).deb
 deb: pkcs11gn_$(VERSION)-1_$(ARCH).deb
 
 sig: pkcs11gn_$(VERSION)-1_$(ARCH).deb.sig
+
+pkcs11gn: main.go
+	go build -o pkcs11gn -ldflags "-s -w"
+
+.PHONY: test
+test:
+	go test -v ./...
+
+.PHONY: coverage
+coverage:
+	go test ./... -coverprofile=cover.out
