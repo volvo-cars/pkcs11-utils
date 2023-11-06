@@ -7,7 +7,7 @@ The tool is pronounced as "pee-kay-see-sign".
 # Usage
 
 You need a to create a `~/.crypto11.json` such as [crypto11.config.yubikey](example/crypto11.config.yubikey)
-with `Path`, `SlotNumber`, `Pin`, and optionally X509 `CommonName` to identify the key you want to use.
+with `Path`, `SlotNumber` and optionally `Pin` and X509 `CommonName` to identify the key you want to use.
 
 The full set of configuration options is documented [here](https://pkg.go.dev/github.com/ThalesIgnite/crypto11#Config).
 The only undocumented field is `CommonName` as it is only needed by this tool.
