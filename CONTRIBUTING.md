@@ -12,7 +12,7 @@ Please submit new issues [here](https://github.com/volvo-cars/pkcs11-utils/issue
 
 Changes to the repository are managed through [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
-To open a pull request with a proposed change, fork the repository, make your changes and open a pull request. Please link pull requests to issues where applicable.
+To propose a change, fork the repository, make your changes and open a pull request. Please link pull requests to issues where applicable.
 
 
 ### Links

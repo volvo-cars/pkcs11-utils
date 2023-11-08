@@ -6,11 +6,24 @@ The tool is pronounced as "pee-kay-see-sign".
 
 # Usage
 
+This guide assumes that you have access to a configured [PIV-enabled YubiKey](https://developers.yubico.com/PIV/Introduction/YubiKey_and_PIV.html).
+In addition, you will need the [ykcs11 module](https://developers.yubico.com/yubico-piv-tool/YKCS11):
+```shell
+Linux: sudo apt install ykcs11
+Mac: brew install yubico-piv-tool
+Windows: https://developers.yubico.com/yubico-piv-tool/Releases
+```
+
 You need a to create a `~/.crypto11.json` such as [crypto11.config.yubikey](example/crypto11.config.yubikey)
-with `Path`, `SlotNumber` and optionally `Pin` and X509 `CommonName` to identify the key you want to use.
+with `Path`, `SlotNumber` and optionally `Pin` and X509 `CommonName` to identify the key you want to use. `CommonName`
+is only required if your YubiKey has more than one cert loaded onto it.
 
 The full set of configuration options is documented [here](https://pkg.go.dev/github.com/ThalesIgnite/crypto11#Config).
 The only undocumented field is `CommonName` as it is only needed by this tool.
+
+## Build
+Compile the binary
+`make pkcs11gn`
 
 ## Sign file
 
