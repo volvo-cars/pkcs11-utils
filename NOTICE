@@ -1,10 +1,5 @@
 Copyright 2023 Volvo Car Corporation
 
-[pkcs11-utils : main]
-
-Phase: DEVELOPMENT
-Distribution: EXTERNAL
-
 Components:
 
 golang.org/x/sys v0.4.0 : BSD 3-clause "New" or "Revised" License
@@ -48,20 +43,18 @@ golang.org/x/term v0.4.0 long_tail:go.googlesource.com/term#v0.4.0
 	Copyright (c) 2009 The Go Authors. All rights reserved
 go-spew v1.1.0 github:davecgh/go-spew:v1.1.0
 	Copyright (c) 2012-2016 Dave Collins <dave@davec.name>
-	Copyright (c) 2012-2016 Dave Collins <dave@davec.name>Permission to use, copy, modify, and distribute this software for anypurpose with or without fee is hereby granted, provided that the above
 	Copyright (c) 2012-2013 Dave Collins <dave@davec.name>
-	Copyright (c) 2013-2016 Dave Collins <dave@davec.name> * * Permission to use, copy, modify, and distribute this software for any * purpose with or without fee is hereby granted, provided that the a
-	Copyright (c) 2013 Dave Collins <dave@davec.name> * * Permission to use, copy, modify, and distribute this software for any * purpose with or without fee is hereby granted, provided that the above
+	Copyright (c) 2013-2016 Dave Collins <dave@davec.name>
+	Copyright (c) 2013 Dave Collins <dave@davec.name>
 	Copyright (c) 2013-2016 Dave Collins <dave@davec.name>
 	Copyright (c) 2013-2015 Dave Collins <dave@davec.name>
 	Copyright (c) 2015-2016 Dave Collins <dave@davec.name>
-	Copyright (c) 2013 Dave Collins <dave@davec.name>
 	Copyright (c) 2015 Dave Collins <dave@davec.name>
 Go Testify v1.3.0 github:stretchr/testify:v1.3.0
 	Copyright (c) 2012-2016 Dave Collins <dave@davec.name>
 	Copyright (c) 2017-2018 objx contributors
 	Copyright (c) 2013, Patrick MezardAll rights reserved
-	Copyright (c) 2013-2016 Dave Collins <dave@davec.name> * * Permission to use, copy, modify, and distribute this software for any * purpose with or without fee is hereby granted, provided that the a
+	Copyright (c) 2013-2016 Dave Collins <dave@davec.name>
 	Copyright (c) 2014 Stretchr, Inc.
 	Copyright (c) 2012-2020 Mat Ryer, Tyler Bunnell and contributors.
 	Copyright (c) 2012-2018 Mat Ryer and Tyler Bunnell
@@ -73,7 +66,7 @@ stretchr/objx v0.1.0 github:stretchr/objx:v0.1.0
 	Copyright (c) 2012-2016 Dave Collins <dave@davec.name>
 	Copyright (c) 2017-2018 objx contributors
 	Copyright (c) 2013, Patrick MezardAll rights reserved
-	Copyright (c) 2013-2016 Dave Collins <dave@davec.name> * * Permission to use, copy, modify, and distribute this software for any * purpose with or without fee is hereby granted, provided that the a
+	Copyright (c) 2013-2016 Dave Collins <dave@davec.name>
 	Copyright (c) 2014 Stretchr, Inc.
 	Copyright (c) 2013-2016 Dave Collins <dave@davec.name>
 	Copyright (c) 2015-2016 Dave Collins <dave@davec.name>
