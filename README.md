@@ -22,8 +22,10 @@ The full set of configuration options is documented [here](https://pkg.go.dev/gi
 The only undocumented field is `CommonName` as it is only needed by this tool.
 
 ## Build
-Compile the binary
-`make pkcs11gn`
+Compile the binary:
+```shell
+make pkcs11gn
+```
 
 ## Sign file
 
