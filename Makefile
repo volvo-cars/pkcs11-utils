@@ -11,9 +11,10 @@ docker build --platform=$(ARCH) \
 	--progress plain --target $(1) -t pkcs11gn-$(ARCH) .
 endef
 
-all: deb
+all: pkcs11gn
 
 clean:
+	rm pkcs11gn
 	rm -rf *.deb
 
 .PHONY: test
