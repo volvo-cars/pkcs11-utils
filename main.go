@@ -1,5 +1,5 @@
 // Copyright (c) 2023 Volvo Car Corporation
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: BSD 3-clause
 package main
 
 import (

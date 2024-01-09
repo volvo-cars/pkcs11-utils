@@ -1,5 +1,5 @@
 # Copyright (c) 2023 Volvo Car Corporation
-# SPDX-License-Identifier: Apache-2.0
+# SPDX-License-Identifier: BSD 3-clause
 VERSION := 0.1.0
 SHA256SUM := 98210011d07d3ce56cba8d4550ceb423e2715a4b74e513f0e259a2496cf7f37b
 ARCH := amd64
